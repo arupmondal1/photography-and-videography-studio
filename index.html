@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> photography & videography services </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> LI Studio</h1>
+            <nav>
+                <ul>
+                    <li ><a href="#home">Home</a></li> 
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li>
+                        <a href="services.html">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="#photography">Photography</a></li>
+                            <li><a href="#videography">Videography</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="logeing.html">Login</a></li>
+                    <li><a href="singup.html"> Sing up</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section  id="home" >
+        <div class="container">
+            <h2>Welcome to Our Studio</h2>
+            <p>Capturing moments, creating memories.</p>
+        </div>
+    </section>
+    
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <h3> some of our best photos</h3>
+            <div class="gallery-grid">
+                <img src="img/1.png" alt="Photo 1" width="100" height="100">
+                <img src="img/2.png" alt="Photo 2" width="100" height="100">
+                <img src="img/3.png" alt="Photo 3" width="100" height="100">
+                <img src="img/4.png" alt="Photo 4" width="100" height="100">
+            </div>
+        </div>
+    </section>
+</section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        
+  
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 photography Studio</p>
+        </div>
+    </footer>
+</body>
+<script src="iscript.js"></script>
+</html>
